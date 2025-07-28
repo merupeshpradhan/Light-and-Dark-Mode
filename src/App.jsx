@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import LightDarkMode from "./light-dark-mode";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <LightDarkMode />
+    </div>
+  );
 }
 
-export default App
+export default App;
